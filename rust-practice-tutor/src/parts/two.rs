@@ -1,4 +1,4 @@
-pub fn show() {
+pub fn ownership() {
     println!("################# ownership #################");
     // Strings are stored in both stack and heap
     // They are moved by default, unless we copy by borrowing

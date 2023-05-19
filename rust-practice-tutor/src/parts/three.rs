@@ -1,4 +1,4 @@
-pub fn show() {
+pub fn functions() {
     println!("################# functions #################");
     let message = get_hello_world();
     // println!("{}", message);

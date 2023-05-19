@@ -1,4 +1,4 @@
-pub fn show() {
+pub fn variables() {
     println!("################# variables #################");
 
     let first_name: &str = "John";
