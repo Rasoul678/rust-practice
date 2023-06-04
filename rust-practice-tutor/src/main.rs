@@ -6,7 +6,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     // parts::five::enumerations();
     // parts::six::collections();
     // parts::seven::optionals();
-    parts::eight::errors()?;
+    // parts::eight::errors()?;
+    parts::nine::lifetimes();
 
     Ok(())
 }
@@ -19,5 +20,6 @@ mod parts {
     // pub mod two;
     // pub mod six;
     // pub mod seven;
-    pub mod eight;
+    // pub mod eight;
+    pub mod nine;
 }
