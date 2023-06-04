@@ -1,11 +1,14 @@
-fn main() {
+fn main() -> Result<(), Box<dyn std::error::Error>> {
     // parts::one::variables();
     // parts::two::ownership();
     // parts::three::functions();
     // parts::four::structures();
     // parts::five::enumerations();
     // parts::six::collections();
-    parts::seven::optionals();
+    // parts::seven::optionals();
+    parts::eight::errors()?;
+
+    Ok(())
 }
 
 mod parts {
@@ -15,5 +18,6 @@ mod parts {
     // pub mod three;
     // pub mod two;
     // pub mod six;
-    pub mod seven;
+    // pub mod seven;
+    pub mod eight;
 }
