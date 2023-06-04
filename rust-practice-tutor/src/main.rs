@@ -4,7 +4,8 @@ fn main() {
     // parts::three::functions();
     // parts::four::structures();
     // parts::five::enumerations();
-    parts::six::collections();
+    // parts::six::collections();
+    parts::seven::optionals();
 }
 
 mod parts {
@@ -13,5 +14,6 @@ mod parts {
     // pub mod one;
     // pub mod three;
     // pub mod two;
-    pub mod six;
+    // pub mod six;
+    pub mod seven;
 }
