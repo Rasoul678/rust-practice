@@ -9,7 +9,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     // parts::eight::errors()?;
     // parts::nine::lifetimes();
     // parts::ten::traits();
-    parts::eleven::pointers();
+    // parts::eleven::pointers();
+    parts::twelve::generics();
 
     Ok(())
 }
@@ -25,5 +26,6 @@ mod parts {
     // pub mod eight;
     // pub mod nine;
     // pub mod ten;
-    pub mod eleven;
+    // pub mod eleven;
+    pub mod twelve;
 }
