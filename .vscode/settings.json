@@ -1,3 +1,11 @@
 {
-  "rust-analyzer.linkedProjects": ["./rust-practice-tutor/Cargo.toml"]
+  "rust-analyzer.linkedProjects": [
+    "./rust-practice-tutor/Cargo.toml",
+    "./myapp/Cargo.toml",
+    "./myapp/intutils/Cargo.toml"
+  ],
+  "[rust]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  }
 }
