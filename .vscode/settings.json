@@ -3,7 +3,8 @@
     "./rust-practice-tutor/Cargo.toml",
     "./myapp/Cargo.toml",
     "./myapp/intutils/Cargo.toml",
-    "./manufacturers/Cargo.toml"
+    "./manufacturers/Cargo.toml",
+    "./note/Cargo.toml"
   ],
   "[rust]": {
     "editor.formatOnSave": true,
